@@ -5,7 +5,7 @@ import setuptools
 REQUIRED = [
     "numpy",
     "pandas"
-    ]
+]
 
 with open("README.md", "r") as fh:
     LONG_DESCRIPTION = fh.read()
@@ -25,7 +25,5 @@ setuptools.setup(
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
         "Operating System :: OS Independent",
-        ],
-    )
-    
-    
+    ],
+)
