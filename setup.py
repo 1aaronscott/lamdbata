@@ -12,7 +12,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="lambdata_1aarons",
-    version="0.0.3",
+    version="0.0.4",
     author="1aarons",
     description="Collection of DS helper functions",
     long_description=LONG_DESCRIPTION,

@@ -1,9 +1,0 @@
-"""
-Lambdata - collection of helper funtions for Lambda School Data Science
-"""
-
-import pandas as pd
-import numpy as np
-
-ZERO_LIST = [0] * 50
-ONES = pd.DataFrame(np.ones(10))
