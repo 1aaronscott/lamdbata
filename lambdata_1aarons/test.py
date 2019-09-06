@@ -10,9 +10,9 @@ class Complex_Test(unittest.TestCase):
     """
 
     def test_subtract(self):
-        number1 = Complex(5, 4)
-        number2 = Complex(12, 2)
-        self.assertTrue(complex(-7, 2), number1+number2)
+        number1 = complex.Complex(5, 4)
+        number2 = complex.Complex(12, 2)
+        self.assertTrue(complex.Complex(-7, 2), number1+number2)
 
 
 if __name__ == '__main__':
