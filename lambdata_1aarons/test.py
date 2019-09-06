@@ -12,7 +12,8 @@ class Complex_Test(unittest.TestCase):
     def test_subtract(self):
         number1 = complex.Complex(5, 4)
         number2 = complex.Complex(12, 2)
-        self.assertTrue(complex.Complex(-7, 2), number1+number2)
+        result = complex.Complex(-7, 2)
+        self.assertEqual((result.r, result.i), number1-number2)
 
 
 if __name__ == '__main__':

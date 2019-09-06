@@ -15,7 +15,7 @@ class Complex:
 
     def __sub__(self, second):
         """Subtracts the second complex number from the first."""
-        return self.r-second.r, self.i-second.r
+        return self.r-second.r, self.i-second.i
 
     def __mul__(self, second):
         """Multiply first complex number by second."""
